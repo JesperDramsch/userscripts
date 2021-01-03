@@ -7,6 +7,8 @@
 // @include      /^[https,http]+:\/\/scholar\.google\.[a-z]+\/scholar\?.*$/
 // @require      http://code.jquery.com/jquery-3.4.1.min.js
 // @grant        GM_xmlhttpRequest
+// @downloadURL  https://github.com/JesperDramsch/userscripts/raw/main/google-scholar-with-papers-with-code.user.js
+// @updateURL    https://github.com/JesperDramsch/userscripts/raw/main/google-scholar-with-papers-with-code.user.js
 // ==/UserScript==
 
 (function() {
