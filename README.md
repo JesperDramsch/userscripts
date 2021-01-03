@@ -2,8 +2,8 @@
 
 ## Google Scholar with DOIs
 
-> Inspired by [https://github.com/sgrieve/ScholarDOI](ScholarDOI)
+> Inspired by [ScholarDOI](https://github.com/sgrieve/ScholarDOI)
 
 ## Google Scholar with Papers with Code
 
-> Inspired by [https://github.com/eladrich/ScholarDOI](ScholarWithCode)
+> Inspired by [ScholarWithCode](https://github.com/eladrich/ScholarWithCode)
