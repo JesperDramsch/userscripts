@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Google Scholar with Papers With Code
 // @namespace    http://dramsch.net/
-// @version      0.2
+// @version      0.3
 // @description  Enhance Google Scholar with Paper with Code links
 // @author       Jesper Dramsch
 // @include      /^[https,http]+:\/\/scholar\.google\.[a-z]+\/scholar\?.*$/
@@ -35,7 +35,7 @@
             responseType: "document",
             onload:     function (responseDetails) {
                 console.log()
-                var a = $($(responseDetails.response).find('.author-section').children()[1]);
+                var a = $($(responseDetails.response).find('.author-section').children()[0]);
                 if (a.length == 0)
                 {
                     var a = $("<a>no code</a>"); // No results
