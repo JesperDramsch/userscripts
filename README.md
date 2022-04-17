@@ -4,11 +4,11 @@ Userscripts can be used to modify websites to your liking using Javascript in th
 
 ## How To Install
 
-Get [Tampermonkey for Chrome](https://www.tampermonkey.net/) or [Greasemonkey for Firefox](https://addons.mozilla.org/de/firefox/addon/greasemonkey/).
+Get [Violentmonkey for Chrome](https://chrome.google.com/webstore/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag) or [Tampermonkey for Chrome](https://www.tampermonkey.net/) or [Greasemonkey for Firefox](https://addons.mozilla.org/de/firefox/addon/greasemonkey/).
 
 1. Click on Script you want
 2. Click on RAW
-3. This takes you to Greasemonkey / Tampermonkey
+3. This takes you to Violentmonkey / Greasemonkey / Tampermonkey
 4. Click on Install
 
 ![howto-install](https://user-images.githubusercontent.com/2620316/103488148-3f125800-4e02-11eb-93aa-d5d7fc66b631.gif)
