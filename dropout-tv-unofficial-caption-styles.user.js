@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://embed.vhx.tv/videos/*
 // @grant       GM_addStyle
-// @version     0.1
+// @version     0.2
 // @author      Jesper Dramsch
 // @run-at      document-start
 // @downloadURL https://github.com/JesperDramsch/userscripts/raw/main/dropout-tv-unofficial-caption-styles.user.js
@@ -12,7 +12,7 @@
 
 // you can add more stylings and choose other colors explanation below
 GM_addStyle ( `
-    .vp-captions-window {
+    .vp-captions > span {
         background-color: #000000 !important;
         color: #ffffff !important;
         font-family: Arial !important;
