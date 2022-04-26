@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name        Enable Dropout.tv Captions Automatically
+// @name        Pause Dropout.tv videos automatically for live sessions
 // @namespace   Violentmonkey Scripts
 // @match       https://embed.vhx.tv/videos/*
 // @grant       GM_addStyle
-// @version     0.1
+// @version     0.2
 // @author      Jesper Dramsch
 // @require     http://code.jquery.com/jquery-3.4.1.min.js
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
