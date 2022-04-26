@@ -3,16 +3,15 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://embed.vhx.tv/videos/*
 // @grant       GM_addStyle
-// @version     0.3
+// @version     0.4
 // @author      Jesper Dramsch
-// @require     http://code.jquery.com/jquery-3.4.1.min.js
-// @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @require     https://cdn.jsdelivr.net/gh/CoeJoder/waitForKeyElements.js@v1.2/waitForKeyElements.js
 // @downloadURL https://github.com/JesperDramsch/userscripts/raw/main/dropout-tv-unofficial-autopause.user.js
 // @updateURL   https://github.com/JesperDramsch/userscripts/raw/main/dropout-tv-unofficial-autopause.user.js
 // ==/UserScript==
 
 //--- Note that contains() is CASE-SENSITIVE.
-waitForKeyElements ("div.pause-icon", clickOnPlayButton);
+waitForKeyElements ("div.pause-icon", (element) => {element.click();});
 
 function clickOnPlayButton (jNode) {
     var clickEvent  = document.createEvent ('MouseEvents');
