@@ -12,10 +12,10 @@
 // ==/UserScript==
 
 //--- Note that contains() is CASE-SENSITIVE.
-waitForKeyElements ("div.pause-icon", clickOnCaptionButton);
+waitForKeyElements ("div.pause-icon", clickOnPlayButton);
 
-function clickOnCaptionButton (jNode) {
+function clickOnPlayButton (jNode) {
     var clickEvent  = document.createEvent ('MouseEvents');
     clickEvent.initEvent ('click', true, true);
     jNode[0].dispatchEvent (clickEvent);
-}
+} 
