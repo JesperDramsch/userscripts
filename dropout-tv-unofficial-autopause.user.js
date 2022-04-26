@@ -10,11 +10,4 @@
 // @updateURL   https://github.com/JesperDramsch/userscripts/raw/main/dropout-tv-unofficial-autopause.user.js
 // ==/UserScript==
 
-//--- Note that contains() is CASE-SENSITIVE.
 waitForKeyElements ("div.pause-icon", (element) => {element.click();});
-
-function clickOnPlayButton (jNode) {
-    var clickEvent  = document.createEvent ('MouseEvents');
-    clickEvent.initEvent ('click', true, true);
-    jNode[0].dispatchEvent (clickEvent);
-} 
